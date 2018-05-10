@@ -11,4 +11,15 @@ class MaxM {
         }
         System.out.println("Max member value of array is " + t);
     }
+
+    void max(String[] stSeq) {
+        int t = Integer.MIN_VALUE;
+        for (String s :
+                stSeq) {
+            if (t < Integer.parseInt(s)) {
+                t = Integer.parseInt(s);
+            }
+        }
+        System.out.println("Max member value of array is " + t);
+    }
 }
