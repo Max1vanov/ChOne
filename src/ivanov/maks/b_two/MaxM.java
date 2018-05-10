@@ -1,7 +1,7 @@
 package ivanov.maks.b_two;
 
-class MaxM {
-    void max(int[] seq) {
+public class MaxM {
+    public void max(int[] seq) {
         int t = Integer.MIN_VALUE;
         for (int s :
                 seq) {
@@ -12,7 +12,7 @@ class MaxM {
         System.out.println("Max member value of array is " + t);
     }
 
-    void max(String[] stSeq) {
+     public void max(String[] stSeq) {
         int t = Integer.MIN_VALUE;
         for (String s :
                 stSeq) {
