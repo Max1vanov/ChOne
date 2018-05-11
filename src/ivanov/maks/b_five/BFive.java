@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class BFive {
     public static void main(String[] args) {
         CrSeq cS = new CrSeq();
-        int[] ex = cS.crSec(10);
+        int[] ex = cS.crSec(10, 1000);
         BubbleSort bubble = new BubbleSort();
         System.out.println(Arrays.toString(ex));
         bubble.sort(ex);

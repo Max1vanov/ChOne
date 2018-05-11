@@ -9,14 +9,14 @@ public class BTwo {
         MaxM findMax = new MaxM();
         MinM findMin = new MinM();
 
-        int[] ex = cS.crSec(10);
+        int[] ex = cS.crSec(10, 1000);
         System.out.println(Arrays.toString(ex));
         findMax.max(ex);        
         findMin.min(ex);
 
         System.out.println();
 
-        String[] exSt = cS.crSeqSt(10);
+        String[] exSt = cS.crSeqSt(10, 1000);
         System.out.println(Arrays.toString(exSt));
         findMax.max(exSt);
         findMin.min(exSt);
