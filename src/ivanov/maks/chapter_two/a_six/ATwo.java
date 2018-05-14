@@ -1,4 +1,4 @@
-package ivanov.maks.chapter_two;
+package ivanov.maks.chapter_two.a_six;
 
 import ivanov.maks.chapter_one.b_one.CrSeq;
 import java.util.Arrays;

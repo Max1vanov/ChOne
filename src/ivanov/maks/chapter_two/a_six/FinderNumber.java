@@ -1,4 +1,4 @@
-package ivanov.maks.chapter_two;
+package ivanov.maks.chapter_two.a_six;
 
 /**
  * Find the number and sorts them in ascending order
